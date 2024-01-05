@@ -9,7 +9,8 @@
 // all ok till Now
 var c = 300 //global scope
 
-// this if curly braces is block
+// this "if" curly braces is block
+
 if (true) {
     let a = 10;
     const b = 20;
@@ -22,7 +23,7 @@ console.log(c); // 30 --> thats a problem
 
 
 
-let a = 300 //global scope
+let a = 300 // global scope
 
 // this if curly braces is block
 if (true) {
@@ -31,10 +32,9 @@ if (true) {
     console.log("Inner : ", a);
 }
 
-console.log(a); // --> a is not defined
-// console.log(b); --> b is not defined
-// console.log(c); // 30 --> thats a problem
-
+console.log(a); // --> 300
+// console.log(b); // --> b is not defined
+console.log(c); // 30 --> thats a problem
 
 
 /*

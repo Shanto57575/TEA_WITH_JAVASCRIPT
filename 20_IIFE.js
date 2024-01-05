@@ -40,5 +40,8 @@ modifications of data we use IIFE
 ((name) => {
     // IIFE with parameter
     console.log(`${name} connected`);
-})("Saif")
+})("Saif");
 
+(function () {
+    console.log("joss");
+})()

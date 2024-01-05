@@ -24,20 +24,19 @@ console.log(this); // window object in browser environment
 // chai();
 
 // const chai = function () {
-//     console.log(this); //you will get a lot of things
 //     let username = "shanto"
+//     console.log(this); //you will get a lot of things
 //     console.log(this.username); // undefined
 // }
 
 // chai();
 
 const chai = () => {
-    console.log(this); //you will get a lot of things
     let username = "shanto"
     console.log(this); // {}
 }
 
-// chai();
+chai();
 
 // const addTwo = (num1, num2) => {
 //     return num1 + num2

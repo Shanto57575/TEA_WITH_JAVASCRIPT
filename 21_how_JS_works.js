@@ -56,7 +56,6 @@ js code is executed in two phases:
                       after its done working it 
                       will get deleted and return
                      the value to parent execution context
-
 *** call stack ***
 
 */

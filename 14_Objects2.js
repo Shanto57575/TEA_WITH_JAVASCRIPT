@@ -24,9 +24,9 @@ const obj3 = { obj1, obj2 }
 const obj4 = { ...obj1, ...obj2 } // preferred
 const obj5 = Object.assign({}, obj1, obj2)
 
-console.log(obj3);
-console.log(obj4);
-console.log(obj5);
+console.log("obj3", obj3);
+console.log("obj4", obj4);
+console.log("obj5", obj5);
 
 // obj4 && obj5 are same
 
@@ -53,7 +53,7 @@ console.log(tinderUser);
 console.log(Object.keys(tinderUser));//return  array of keys
 console.log(Object.values(tinderUser));//return  array of values
 
-console.log(Object.entries(tinderUser));
+console.log(Object.entries(tinderUser)); //return  array of keys & values
 
 //is the property exists in Objects
 

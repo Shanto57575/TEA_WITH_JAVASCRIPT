@@ -2,7 +2,7 @@ function one() {
     const username = "shanto"
     function two() {
         const website = "youtube"
-        // console.log(username);
+        console.log(username);
     }
     // console.log(website);
     two();
@@ -14,9 +14,8 @@ if (true) {
     const username = "shanto"
     if (username === "shanto") {
         const website = "youtube"
-        // console.log(username + " " + website);
+        console.log(username + " " + website);
     }
-
     // console.log(website); //will give error
 }
 
@@ -32,11 +31,11 @@ function addOne(num) {
 
 console.log(addOne(5));//6
 
-console.log(addTwo(5));// Cannot access 'addTwo' before initialization
+// console.log(addTwo(5));// Cannot access 'addTwo' before initialization
 
 const addTwo = function (num) {
-    /* 
-      when you declare function like 
+    /*
+      when you declare function like
       this it cannot be accessed before
       initialization
     */

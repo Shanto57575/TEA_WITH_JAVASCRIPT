@@ -27,6 +27,7 @@ console.log(real_array);
 
 console.log(Array.isArray("shanto")); // returns boolean if it is array
 console.log(Array.from("shanto"));// Creates an array from an iterable object.
+console.log(Array.from([1, [2, 3]].flat(Infinity)));// Creates an array from an iterable object.
 console.log(Array.from({ name: "shanto" })); //if it cant convert it will will return an empty array --> []
 
 let score = 100

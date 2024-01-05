@@ -10,11 +10,11 @@ let score = 33;
 */
 
 // let score1 = Number
-let joss = Number('1')
-console.log(typeof joss); // number
+let joss = Number("shanto")
+console.log(typeof joss); // the answer number though we put 1 as string
 
 let str = String(1)
-console.log(typeof str); // string
+console.log(typeof str); // the answer string though we put 1 as string
 
 let str2 = String("1abc")
 console.log(typeof str2); // string
@@ -23,12 +23,12 @@ let str3 = Number("1abc")
 console.log(typeof str3); // number
 
 let str4 = "1abc"
-console.log(typeof str4); // number
-console.log(str4); // string
+console.log('->', typeof str4); // Number
+console.log(str4);
 
 let str5 = Number("1abc")
 console.log(typeof str5); // number
-console.log(str5); // NaN
+console.log("str5", str5); // NaN
 
 /*
 

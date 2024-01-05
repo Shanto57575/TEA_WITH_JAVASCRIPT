@@ -10,7 +10,7 @@ function sayMyName() {
 }
 
 // sayMyName()
-//sayMyName --> will not execute because its just a reference to
+// sayMyName-- > //will not execute because its just a reference to
 
 function addTwoNumbers(number1, number2) { // number1 & number2 are parameter
     console.log(number1 + number2);
@@ -18,7 +18,7 @@ function addTwoNumbers(number1, number2) { // number1 & number2 are parameter
 
 const result = addTwoNumbers(3, 5) // 3,5 are arguments
 
-// console.log("result: ", result); // undefined , because it function didn't return anything
+console.log("result: ", result); // undefined , because it function didn't return anything
 
 function loginUserMessage(userName = "sam") {
     if (!userName) {
@@ -28,9 +28,9 @@ function loginUserMessage(userName = "sam") {
     return `${userName} just logged in`;
 }
 
-// console.log(loginUserMessage("Shanto"));
+console.log(loginUserMessage("Shanto")); // Shanto just logged in
 
-// console.log(loginUserMessage("shanto"));//undefined
+console.log(loginUserMessage());// sam just logged in
 
 function calculateCartPrice(...num1) { //rest operator
     return num1;

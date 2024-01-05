@@ -1,5 +1,5 @@
-// Stack(primitive) --> changes the copy value
-// Heap(Non-primitive) --> changes the original value
+// Stack(primitive) --> changes the copy value only
+// Heap(Non-primitive) --> changes the original value -- array, objects
 
 let myName = "Shanto"
 

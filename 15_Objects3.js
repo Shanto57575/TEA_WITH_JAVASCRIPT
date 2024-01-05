@@ -7,7 +7,8 @@ const course = {
 }
 
 const { courseInstructor: instructor } = course;
+const { courseInstructor } = course;
 
-console.log(instructor);
+console.log(courseInstructor, instructor); // shanto, shanto
 
 // JSON : js object notation

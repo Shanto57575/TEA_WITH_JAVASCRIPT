@@ -7,7 +7,7 @@ js have two types of data type:
 
 primitive types are (7) :
 
-String, Number, Boolean, null, undefined, Symbol, BigInt
+Number, String, Boolean, null, undefined, Symbol, BigInt
 
 reference types are () :
 
@@ -22,6 +22,10 @@ Js is a dynamically typed language.So
 this means you can just assign anything 
 you want to the variable and it will work. 
 
+Dynamically typed language--> These are the languages that do not require 
+             any pre-defined data type for any variable as it is interpreted at runtime 
+             by the machine itself. In these languages, interpreters assign the data type
+             to a variable at runtime depending on its value
 ***
 
 
@@ -31,6 +35,14 @@ const id = Symbol(123);
 const id2 = Symbol(123);
 
 console.log(id === id2); // false
+
+/*
+
+Because,
+Symbols are unique and immutable, and even if they have the same description, 
+they are considered distinct values. This uniqueness is one of the primary 
+features of symbols in JavaScript and is useful for creating private object 
+properties or preventing naming conflicts.
 
 /*
 
