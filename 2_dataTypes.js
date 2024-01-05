@@ -2,20 +2,22 @@
 
 /*
 
-There are lots of differences between old js code and new js code
-thats why when new js code invented to not ruining the old code "use strict"
-is used so that it treat all the code as newer version...though it is not necessary to
-write use strict now but its a good practice.
+JavaScript has evolved over time, introducing new features and improvements. 
+The "use strict" directive is not about treating code as a newer version; 
+instead, it enforces stricter rules to catch errors and enhance code quality. 
+While not mandatory, including "use strict" is considered good practice, 
+ensuring a more disciplined and error-resistant coding style, even in modern 
+JavaScript where many strict mode rules are applied by default.
 
 */
 
-// alert(3 + 3) we are using node js not browser
+// alert(3 + 3) works in browser only not in node js 
 
 /* semicolon is not necessary when we are using different code in different lines
 but it necessary when we are writing two different code in same line....though its
 not good practice its decrease readability of the code
 
-console.log(3) console.log(10); ---> throw Error
+console.log(3) console.log(10); ---> will throw Error
 console.log(3); console.log(10); ---> ok, But not preferred
 
 console.log(3);  ---> ] correct with semicolon
@@ -56,3 +58,4 @@ let state;
 console.log(typeof undefined); // undefined
 console.log(typeof null); // null
 console.log(typeof NaN); // number
+console.log(typeof Number); // function
