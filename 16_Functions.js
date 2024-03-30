@@ -10,10 +10,10 @@ function sayMyName() {
 }
 
 // sayMyName()
-// sayMyName-- > //will not execute because its just a reference to
+// sayMyName --> //will not execute because its just a reference to
 
 function addTwoNumbers(number1, number2) { // number1 & number2 are parameter
-    console.log(number1 + number2);
+    console.log(number1 + number2); // 8
 }
 
 const result = addTwoNumbers(3, 5) // 3,5 are arguments

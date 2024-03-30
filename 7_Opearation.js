@@ -1,7 +1,6 @@
 let value = 3;
 let negValue = -value;
 
-
 console.log(negValue);
 
 /*
@@ -21,11 +20,11 @@ let str2 = " Js"
 // console.log(str1 + str2);
 
 let str3 = "1" + 2;
-console.log(str3);
+console.log(str3);//12
 console.log(typeof str3); //string
 
 let str4 = 1 + "2";
-console.log(str4);
+console.log(str4);//12
 console.log(typeof str4); //string
 
 console.log("1" + 2 + 2); // 122

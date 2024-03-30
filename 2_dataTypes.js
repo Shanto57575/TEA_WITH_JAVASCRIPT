@@ -10,6 +10,7 @@ ensuring a more disciplined and error-resistant coding style, even in modern
 JavaScript where many strict mode rules are applied by default.
 
 */
+// alert(3 + 3) --> throw error ---> alert is not defined
 
 // alert(3 + 3) works in browser only not in node js 
 
@@ -56,6 +57,6 @@ let state;
 */
 
 console.log(typeof undefined); // undefined
-console.log(typeof null); // null
+console.log(typeof null); // object
 console.log(typeof NaN); // number
 console.log(typeof Number); // function

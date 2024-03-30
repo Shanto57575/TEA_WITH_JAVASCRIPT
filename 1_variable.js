@@ -2,17 +2,18 @@
 // int let and var its allowed
 
 let first = 10;
-var second = "Mamia";
+var second = "Shanto";
 
 // console.log(first, second);
 // console.table([first, second]);
 
+// shanto = 2
 /*
 1....
 we can also declare variable without using const , let ,var
 and this is simply variable name and initialization
 
-username// here shanto is variable....but without initialization it will also give error
+username // here shanto is variable....but without initialization it will also give error
 username = "shanto" // here it will not give any error
 console.log(shanto); // it will print the value
 ++++---But it is not preferred to use---++++

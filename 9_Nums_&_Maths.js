@@ -12,7 +12,7 @@ console.log(balance2.toFixed(2));//400.00
 
 const otherNumber = 123.89966
 
-const newN = otherNumber.toPrecision(4) //Returns a string
+const newN = otherNumber.toPrecision(7) //Returns a string
 console.log(newN); // 123.9-> length 5
 console.log(typeof newN.length);  // string
 

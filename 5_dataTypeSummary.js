@@ -34,7 +34,7 @@ Dynamically typed language--> These are the languages that do not require
 const id = Symbol(123);
 const id2 = Symbol(123);
 
-console.log(id === id2); // false
+console.log(id === id2); // false 
 
 /*
 
@@ -75,7 +75,13 @@ symbols with the given key and returns it
 if found, or creates a new one if not found:
 */
 
-const bigNumber = 389238420243232939997 // Numeric literals with absolute values equal to 2^53 or greater are too large to be represented accurately as integers
+const bigNumber = 389238420243232939997
+
+/*
+Numeric literals with absolute values 
+equal to 2 ^ 53 or greater are too large
+to be represented accurately as integers 
+*/
 
 const bigNumber2 = 389238420243232939997n // --just add n
 
@@ -84,6 +90,7 @@ console.log(typeof bigNumber2); // bigint
 
 const heros = ["iron men", "thor", "captain Bangladesh"]
 console.table([heros[0], heros[1], heros[2]]);
+console.log(heros)
 
 const myObj = {
     name: "Shanto",
